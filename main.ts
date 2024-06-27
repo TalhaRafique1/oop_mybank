@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 interface ibankaccount{
     credit (amount: number) : void;
     debit (amount: number) : void;
